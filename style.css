@@ -138,3 +138,89 @@ p em {
     color: hsl(259, 100%, 65%);
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    .container {
+        height: 420px;
+        width: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 15px 15px 120px 15px;
+
+    }
+
+    input {
+        height: 50px;
+        width: 65px;
+        border-radius: 7px;
+        border: 2px solid hsl(0, 0%, 94%);
+        font-size: 16px;
+        font-weight: 700;
+        
+
+    }
+    .input-box-container {
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+    }
+
+    label {
+        font-size: 12px;
+        font-weight: 700;
+        color: hsl(0, 1%, 44%);
+        letter-spacing: 3px;
+        padding-bottom: 5px;
+    }
+    .required-text, .validation {
+        font-size: 7px;
+        font-weight: 400;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        margin-top: 1px;
+        color: hsl(0, 100%, 67%);
+    }
+    .validation {
+        display: none;
+    }
+    .line-design {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    img {
+        position: absolute;
+        z-index: 1;
+        margin-right: 1px;
+        height: 30px;
+        width: 30px;
+        padding: 20px;
+    }
+
+    .result {
+        padding-top: 75px;
+        padding-left: 30px;
+        
+    }
+    p {
+        margin: -25px;
+        font-size: 50px;
+        font-weight: 800;
+        font-style: italic;
+        
+    }
+    
+    p em {
+        color: hsl(259, 100%, 65%);
+        padding-right: 10px;
+        
+    }
+
+    .attribution {
+        display: none;
+    }
+}
