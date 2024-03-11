@@ -1,142 +1,149 @@
 body {
-   background-color: hsl(0, 0%, 94%);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   height: 100%;
-   width: 100%;
-   font-family: 'poppins';
+  background-color: hsl(0, 0%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-family: "poppins";
 }
 
 .main-container {
-    padding-top: 100px;
-    padding-bottom: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container {
-    padding-top: 50px;
-    padding-left: 55px;
-    height: 600px;
-    width: 750px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 15px 15px 200px 15px;   
+  padding-top: 50px;
+  padding-left: 55px;
+  height: 600px;
+  width: 750px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px 15px 200px 15px;
+}
+
+/* stack overflow */
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
 
 .input-box-container {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
-label, input {
-    display: block;
+label,
+input {
+  display: block;
 }
 
 label {
-    font-size: 16px;
-    font-weight: 700;
-    color: hsl(0, 1%, 44%);
-    letter-spacing: 3px;
-    padding-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  color: hsl(0, 1%, 44%);
+  letter-spacing: 3px;
+  padding-bottom: 5px;
 }
- 
+
 input {
-    height: 65px;
-    width: 130px;
-    border-radius: 7px;
-    border: 2px solid hsl(0, 0%, 94%);
-    font-size: 32px;
-    font-weight: 700;
-    padding-left: 20px;
+  height: 65px;
+  width: 130px;
+  border-radius: 7px;
+  border: 2px solid hsl(0, 0%, 94%);
+  font-size: 32px;
+  font-weight: 700;
+  padding-left: 20px;
 }
 
 input:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 input:focus {
-    border: 1px solid hsl(259, 100%, 65%);
-   outline: none;
+  border: 1px solid hsl(259, 100%, 65%);
+  outline: none;
 }
 
-.required-text, .validation {
-    font-size: 14px;
-    font-weight: 400;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    margin-top: 1px;
-    color: hsl(0, 100%, 67%);
+.required-text,
+.validation {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  margin-top: 1px;
+  color: hsl(0, 100%, 67%);
 }
 
 .required-text {
-    display: none;
+  display: none;
 }
 
 .validation {
-    display: none;
+  display: none;
 }
 
 .line-design {
-    padding-top: 25px;
-    display: flex;
-    justify-content: center;
-
+  padding-top: 25px;
+  display: flex;
+  justify-content: center;
 }
 
 .line-design {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-hr {    
-    border-color: hsl(0deg 0% 100% / 36%);
-    width: 100% ;
-    height: 1px;
+hr {
+  border-color: hsl(0deg 0% 100% / 36%);
+  width: 100%;
+  height: 1px;
 }
-
+button {
+  border: none;
+  background: none;
+}
 img {
-    height: 40px;
-    width: 40px;
-    padding: 28px;
-    margin-right: 55px;
-    border-radius: 50%;
-    background-color: hsl(259, 100%, 65%);
+  height: 40px;
+  width: 40px;
+  padding: 28px;
+  margin-right: 55px;
+  border-radius: 50%;
+  background-color: hsl(259, 100%, 65%);
 }
 
 img:hover {
-    cursor: pointer;
-    background-color:  hsl(0, 0%, 8%);
+  cursor: pointer;
+  background-color: hsl(0, 0%, 8%);
 }
 
 .result {
-    padding-top: 40px;
-    padding-left: 40px;
-    
+  padding-top: 40px;
+  padding-left: 40px;
 }
 p {
-    margin: -50px;
-    font-size: 100px;
-    font-weight: 800;
-    font-style: italic;
-    
+  margin: -50px;
+  font-size: 100px;
+  font-weight: 800;
+  font-style: italic;
 }
 
 p em {
-    color: hsl(259, 100%, 65%);
-    padding-right: 20px;
-    
+  color: hsl(259, 100%, 65%);
+  padding-right: 20px;
 }
 
 .attribution {
-    padding-top: 100px;
+  padding-top: 100px;
 }
 
 .attribution a {
-    text-decoration: none;
-    color: hsl(259, 100%, 65%);
+  text-decoration: none;
+  color: hsl(259, 100%, 65%);
 }
+
 
 @media screen and (max-width: 375px) {
     body {
@@ -224,3 +231,4 @@ p em {
         display: none;
     }
 }
+
